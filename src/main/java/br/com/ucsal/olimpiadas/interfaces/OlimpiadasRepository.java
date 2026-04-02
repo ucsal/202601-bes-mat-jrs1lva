@@ -1,6 +1,11 @@
 package br.com.ucsal.olimpiadas.interfaces;
 
+import java.util.List;
+
 import br.com.ucsal.olimpiadas.Participante;
+import br.com.ucsal.olimpiadas.Prova;
+import br.com.ucsal.olimpiadas.Questao;
+import br.com.ucsal.olimpiadas.Tentativa;
 
 public interface OlimpiadasRepository {
 	void salvarParticipante(Participante p);

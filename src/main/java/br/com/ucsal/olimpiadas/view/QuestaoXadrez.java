@@ -1,8 +1,12 @@
 package br.com.ucsal.olimpiadas.view;
 
+import java.util.Arrays;
+
 import br.com.ucsal.olimpiadas.Questao;
+import br.com.ucsal.olimpiadas.interfaces.ComDica;
 
 public class QuestaoXadrez extends Questao implements ComDica {
+	
 	private String[] alternativas = new String[5];
     private char alternativaCorreta;
     private String fenInicial;

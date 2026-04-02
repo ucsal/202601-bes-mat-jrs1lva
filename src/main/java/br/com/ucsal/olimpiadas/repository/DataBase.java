@@ -1,6 +1,13 @@
 package br.com.ucsal.olimpiadas.repository;
 
 import java.util.ArrayList;
+import java.util.List;
+
+import br.com.ucsal.olimpiadas.Participante;
+import br.com.ucsal.olimpiadas.Prova;
+import br.com.ucsal.olimpiadas.Questao;
+import br.com.ucsal.olimpiadas.Tentativa;
+import br.com.ucsal.olimpiadas.interfaces.OlimpiadasRepository;
 
 public class DataBase implements OlimpiadasRepository {
 	public static long proximoParticipanteId = 1;
